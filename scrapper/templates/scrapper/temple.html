@@ -1,0 +1,20 @@
+{% extends 'base.html' %} 
+{% load static %}
+{% block largepagecontent %}
+<div class="row" style="background-image: url({% static '/img/ltc.jpeg' %}); height: 940px; width: 100%;">
+<div class="flow-text" style="float: right; padding-right: 30px;font-size: 16px;">
+
+</div>
+<div class="container" style="color: white;">
+<h1>Learn To Code</h1>
+<p class="flow-text">First you can start practicing on thousands of CodeForces questions, If you don't get the solution right then it will automatically show you solutions of top rated coders according to your level. After that you can test your knowledge gained by choosing any language of your choice (C,C++,Python,Java) on CodeChef  ,simultaneously increaing your knowledge by reading many top rated Blogs all shown at one place</p>
+<a href="/temple/problem" class="btn">Test (CodeChef)</a>
+<br><br><br>
+<a href="/temple/blog" class="btn">Blogs</a>
+<br><br><br>
+<a href = "/temple/cpp" class="btn">Practice (CodeForces)</a>
+<br><br><br>
+</div>
+{% endblock %}
+{% block pagecontent %}
+{% endblock %}

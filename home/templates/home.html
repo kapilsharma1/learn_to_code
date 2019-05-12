@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block largepagecontent %}
+<div class="container flow-text">
+  <p><b><i>Hi {{ user.get_full_name }} <large>{{ user.username }}</large>, Welcome to Learn To Code !</i></b></p>
+</div>
+<div class="#2962ff blue accent-4" style="padding: 10px;">
+<div class="#2962ff blue accent-2" style="padding: 10px;">
+
+          <div class="card #1a237e indigo darken-4">
+            <div class="card-content white-text">
+              <span class="card-title"><b>Practice (CodeForces)</b></span>
+              <p><h5><i>Practice with thousands of codeforces questions and if you get stuck, read the solution source code of highly rated users. Start this practice segment to learn code practices of best rated users while implementing them yourself .</i></h5><hr></p>
+              <p><b>Description:</b><br>Questions will be picked randomly from codeforces problemset data and will be viewed to you. At each question you need to write the code or you can post your answer on their main website. After that to view answer you need to click a button with proper choices and you will be viewed some best rated answer among thousands of answers.</p>
+            </div>
+            <div class="card-action">
+              <a href="/temple/cpp" class="btn #0d47a1 blue darken-3">Link ></a>
+            </div>
+          </div>
+          </div>
+          </div>
+
+          <div class="card #2962ff blue accent-4" style="padding: 10px;">
+<div class="card #2962ff blue accent-2" style="padding: 10px;">
+
+          <div class="card #1a237e indigo darken-4">
+            <div class="card-content white-text">
+              <span class="card-title"><b>Test (CodeChef) And Learn (Technical Blogs)</b></span>
+              <p><h5><i>Test your skills you've gained on thouands of Codechef Problems and also Increase your knowledge by reading some the best Technical Blogs. </i></h5><hr></p>
+              <p><b><b>Description:</b></b><br>This section consist of 2 sections, Test Problems and Blogs. Test Problems provide random problems from CodeChef site to test your knowledge. Blog section provides a random technical blog out of many higly rated blogs each time when a user presses the get button and also provides feature to save the blog for reading later.</p>
+            </div>
+            <div class="card-action">
+              <a href="/temple" class="btn #0d47a1 blue darken-3">Link ></a>
+            </div>
+          </div>
+          </div>
+          </div>
+
+{% endblock %}

@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+
+{% block pagecontent %}
+
+{% load static %}
+
+<p class="flow-text center" style="font-size: 42px;">Developer</p>
+
+<div class="row">
+<div class="col s12 m6 center">
+<img src="{% static 'img/my.jpeg' %}" class="circle" width="50%" height="50%" />
+</div>
+<div class="col s12 m6 flow-text">
+Kapil Sharma
+<br>
+Contact:    kapil_sharma@srmuniv.edu.in
+
+<br></div>
+</div>
+
+
+
+  <p class="flow-text center" style="font-size: 42px;">Technologies Used</p>
+
+<div class="row">
+<div class="col s12 m6 center">
+<img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM.png" height="100%" width="100%" />
+</div>
+<div class="col s12 m6 flow-text">
+This web app is completely made with  Python version 3.5. Main concepts which were used while making this website were Web Scrapping using libraries such as beautiful soup, Database Management (SQL), Server Side Programming.
+<br>
+<a href = "https://www.python.org/">Link ></a>
+</div>
+</div>
+
+
+<br>
+<hr>
+<br>
+
+
+<div class="row">
+<div class="col s12 m6 center">
+<img src="https://www.djangoproject.com/s/img/logos/django-logo-positive.png" height="80%" width="80%" />
+</div>
+<div class="col s12 m6 flow-text">
+To make this web app I used Django Framework for user authentication and serving client requests.
+<br>
+<a href = "https://www.djangoproject.com/">Link ></a>
+</div>
+</div>
+
+<br>
+<hr>
+<br>
+
+<div class="row">
+<div class="col s12 m6 center">
+<img src="http://imgh.us/materializecss.svg" height="50%" width="50%" />
+</div>
+<div class="col s12 m6 flow-text">
+For CSS framework and javascript actions I used Materialize CSS to make the interface more smoother.
+<br>
+<a href = "http://materializecss.com/">Link ></a>
+</div>
+</div>
+
+<hr>
+<br>
+
+
+
+{% endblock %}

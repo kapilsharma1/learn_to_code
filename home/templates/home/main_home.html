@@ -1,0 +1,156 @@
+{% extends 'base.html' %}
+{% load static %}
+<html>
+
+{% block title %}Home Page{% endblock %}
+
+<body>
+
+    {% block largepagecontent %}
+    <div class="row black" style="background-image: url({% static '/img/2.jpg' %});color: white; padding-bottom: 50px;">
+        <div style="padding: 5%;">
+            <div class="col s12 m12 l6 flow-text">
+                <b><p style="font-size: 42px;"><h1><b>Learn To Code </b></h1></p></b>
+                <p style="font-size: 24px;"><h4><i>Learn To Code is a platform which helps students to learn and practice programming by showing specifiic data from many progamming sites into singe platform which is right according to thier level and knowledge.</i></h4></p>
+            </div>
+            <div class="col s6 flow-text hide-on-med-and-down left">
+                <center><img src="{% static '/img/ltc2.jpeg' %}"></center>
+                <center><p style="font-size: 32px;"><b>It's an open source project which uses Web Scrapping tools such as Beautiful Soup and Django Framework for User Authentcation ,Client-Server architecture and Database Management.  </b>
+                <center><a href="https://github.com/kapilsharma1" class="btn white" style="color: black;">Link to github repository</a>
+            </div>
+            <div class="hide-on-large-only center m12">
+            <a href="/signup" class="btn-large">Sign Up</a>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div class="row">
+    <div class="container">
+      <div class="col s12 m12 l6">
+        <img src="{% static '/img/data1.png' %}" width="100%" height="100%" />
+      </div>
+      <div class="col s12 m12 l6 flow-text">
+      <b><p>Get data which is right for you selected out of thousands of sites</p></b>
+      <p style="font-size: 20px">Among tons of data which is present on the internet it presents you the selective and best data which is specific to your needs and level of knowledge. Along with this it provides you links to go the orignal source.</p>
+      <a href = "#modal1">More information on this></a>
+      </div>
+    </div>
+    </div>
+            <div class="container">
+    <br>
+    <br>
+    <hr><br><br>    
+    </div>
+<div class="row">
+        <div class="container">
+      <div class="col s12 m12 l6 flow-text">
+      <b><p></p>Get unlimited questions to practice in fraction of seconds. </b>
+      <p style="font-size: 20px">This platform provides an extremely fast and reliable way to load and store data.</p>
+      <a href = "#modal2">More information on this></a>
+      <br>
+      </div>
+      <div class="col s12 m12 l6 center">
+      <img src="{% static '/img/fast.png' %}" width="70%" height="70%" />
+      </div>
+    </div>
+    </div>
+            <div class="container">
+    <br>
+    <br>
+    <hr><br><br>    
+    </div>
+<div class="row">
+        <div class="container">
+      <div class="col s12 m12 l12 flow-text center">
+      <b><p>Read 1000's of different best technical blogs all at one place</p></b>
+      <p style="font-size: 20px">Read the best blogs such as MIT tech review , hacker news etc all in the same window and on the same page. You can also save the blog for reading later</p>
+      <a href = "#modal3">More information on this></a>
+      </div>
+    </div>
+    </div>            <div class="container">
+    <br>
+    <br>
+    <hr><br><br>    
+    </div>
+
+<div class="row">
+        <div class="container">
+      <div class="col s12 m12 l12 flow-text center">
+      <b><p>Learn from the answers of top rated coders.</p></b>
+      <p style="font-size: 20px">Get best answers out of thousands of answers  when you are stuck on a problem, by pressing single button you can get answers of best coders sorted by rating which will be specifically according to your level of knowledge (Easy, Medium, Hard, Expert)</p>
+      <a href = "#modal4">More information on this></a>
+      </div>
+    </div>
+    </div>
+
+
+
+            <div class="container">
+    <br>
+    <br>
+    <hr><br><br>    
+    </div>
+    <div class="row">
+    <center><p class="flow-text" style="font-size: 42px">Learn from the best coding sites</p></center>
+    <center class="flow-text">This platform shows you more than 10,00,00+ questions from best coding sites</center>
+    <br><br>
+      <div class="row">
+    <div class="col s12 m6 l3 center"><p><img src="https://i.stack.imgur.com/MybMA.png" width="50%" height="50%" /></p></div>
+    <div class="col s12 m6 l3 center"><p><img src="https://s3.amazonaws.com/codechef_shared/sites/all/themes/abessive/logo.png" width="50%" height="50%" /></p></div>
+    <div class="col s12 m6 l3 center"><p><img src="http://st.codeforces.com/s/10438/images/codeforces-logo-with-telegram.png" width="50%" height="50%" /></p></div>
+    <div class="col s12 m6 l3 center"><p><img src="http://www.ycombinator.com/images/ycombinator-logo-fb889e2e.png" width="30%" height="30%" /></p></div>
+    <br>
+    <br>
+  </div>
+
+
+    <div id="modal1" class="modal">
+    <div class="modal-content flow-text">
+    <h4>Selected Data</h4>
+    Many web scraping libraries such as beautiful soup are used to scrape large amount of data from best coding sites and show only specific data to user in levels which makes this platform more easy to use and interactive.
+    </div>
+    <div class="modal-footer">
+      <a href="javascript:void(0);" class="modal-action modal-close waves-effect waves-green btn-flat">Got it</a>
+    </div>
+  </div>
+
+      <div id="modal2" class="modal">
+    <div class="modal-content flow-text">
+    <h4>Extremely Fast</h4>
+     Lots of AJAX calls are used while making of this platform with javascript backend to make sure that you don't have to refresh the page again and again and still the user gets all the data in an extremely fast and an interactive way.
+    </div>
+    <div class="modal-footer">
+      <a href="javascript:void(0);" class="modal-action modal-close waves-effect waves-green btn-flat">Got it</a>
+    </div>
+  </div>
+
+    <div id="modal3" class="modal">
+    <div class="modal-content flow-text">
+    <h4>Technical Blogs</h4>
+    This platform is integrated with the hackernews API. Which means the blog page will show thousands of blogs to the user in an interactive way on a single page. User can also go the orignal page of blog using IFrame in the same window without any need to switch the tabs of browser.
+    </div>
+    <div class="modal-footer">
+      <a href="javascript:void(0);" class="modal-action modal-close waves-effect waves-green btn-flat">Got it</a>
+    </div>
+  </div>
+
+      <div id="modal4" class="modal">
+    <div class="modal-content flow-text">
+    <h4>Expert Solutions</h4>
+    The questions and answers are divided into categories such as beginner ,medium and advanced and are further sorted according to ratings of top rated coders so that you can learn from the best.
+    </div>
+    <div class="modal-footer">
+      <a href="javascript:void(0);" class="modal-action modal-close waves-effect waves-green btn-flat">Got it</a>
+    </div>
+  </div>
+
+
+    </div>
+    {% endblock %} 
+    {% block pagecontent %}
+    <center><a href="/signup" class="btn">Sign Up Now!</a>
+    <br>
+    <br>
+    {% endblock %}
+</body>
+</html>
